@@ -85,3 +85,9 @@
 * 파일질라 - <a rel="noreferrer noopener" href="https://filezilla.softonic.kr/download" target="_blank">다운로드</a>, <a rel="noreferrer noopener" href="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=anysecure3&amp;logNo=220682941990" target="_blank">사용설명</a>
 
 <img width="360" src="https://user-images.githubusercontent.com/13953651/150917091-f7645704-3a24-45b1-b0e8-5d8887b7274f.png" alt="" >
+
+*****
+### [목록으로 이동](README.md)
+
+*****
+### [홈으로 이동](README.md)
