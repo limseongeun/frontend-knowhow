@@ -64,7 +64,7 @@ HTML 문서에서 보이는 부분은 <code><strong>&lt;body></strong></code> �
 
 아래는 HTML 페이지 구조의 시각화입니다.
 
-<img src="https://user-images.githubusercontent.com/13953651/150932438-b326d5e7-94dd-48c0-a105-3fbd1c4d56d6.png"/>
+<img src="https://user-images.githubusercontent.com/13953651/150938083-2da65eef-998e-4985-aa8f-a1e8868cab3e.png"/>
 
 <br>
 
