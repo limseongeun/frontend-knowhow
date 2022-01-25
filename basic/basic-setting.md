@@ -90,4 +90,4 @@
 ### [목록으로 이동](README.md)
 
 *****
-### [홈으로 이동](README.md)
+### [홈으로 이동](https://github.com/limseongeun/frontend-knowhow)
