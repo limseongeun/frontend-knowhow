@@ -90,22 +90,212 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 
 #### HTML &lt;! DOCTYPE> 선언
 
-<code><strong>&lt;!DOCTYPE></strong></code> 선언은 문서 유형을 나타내며 웹 페이지에 브라우저를 올바르게 표시 하는 데 도움이됩니다.   
-페이지 상단 (HTML 태그 이전)에 한 번만 나타내야 합니다.   
+<code><strong>&lt;!DOCTYPE></strong></code> 선언은 **문서 유형**을 나타내며 웹 페이지에 브라우저를 올바르게 표시 하는 데 도움이됩니다.   
+페이지 상단 (HTML 태그 이전)에 **한 번만** 나타내야 합니다.   
 <code><strong>&lt;!DOCTYPE></strong></code> 선언은 대소 문자를 구분하지 않습니다.    
 <code><strong>&lt;!DOCTYPE></strong></code> HTML5 의 선언은 다음과 같습니다.
 
+**예)**
 ```html
 <!doctype html>
 ```
 <br>
 
+#### HTML &lt;html> 루트
+
+<code><strong>&lt;html></strong></code> 태그는 HTML 문서에서 **최상위 루트**를 나타냅니다.  
+<code><strong>&lt;html></strong></code> 태그는 HTML 문서 내 다른 모든 HTML 요소의 컨테이너입니다. (단, <code><strong>&lt;!DOCTYPE></strong></code> 태그 제외)     
+참고로 검색 엔진과 브라우저를 지원하기 위한 웹 페이지의 언어를 선언하려면 항상 태그 내부에 lang 속성을 포함해야 합니다.   
+
+<br>
+
+#### HTML &lt;head> 메타데이터 정보
+
+<code><strong>&lt;head></strong></code> 태그는 메타데이터(데이터에 대한 데이터)의 영역이며 <code><strong>&lt;html></strong></code>  태그와 <code><strong>&lt;body></strong></code>  태그 사이에 배치됩니다.   
+메타데이터는 **HTML 문서에 대한 정보**를 담고 있는 데이터이며, 웹 페이지 상에서는 표시되지 않습니다.   
+메타데이터는 일반적으로 document title, character set, styles, scripts, and other meta 정보를 정의합니다.   
+다음 요소는 <code><strong>&lt;head></strong></code>요소 내부에 들어갈 수 있습니다.
+
+* <code><strong>&lt;title></strong></code> (모든 HTML 문서에 필요)
+* <code><strong>&lt;style></strong></code>
+* <code><strong>&lt;base></strong></code>
+* <code><strong>&lt;link></strong></code>
+* <code><strong>&lt;meta></strong></code>
+* <code><strong>&lt;script></strong></code>
+* <code><strong>&lt;noscript></strong></code>
+
+<br>
+
+#### HTML &lt;title> 문서 제목
+
+<code><strong>&lt;title></strong></code> 태그는 문서의 **제목**을 정의하며, 내용은 텍스트 전용이어야 하며 브라우저의 상단 제목 표시줄이나 페이지의 탭에 표시됩니다.   
+<code><strong>&lt;title></strong></code> 태그는 HTML 문서에 꼭 필요합니다!   
+페이지 제목의 내용은 **검색엔진 최적화(SEO)** 에 매우 중요하며, 검색 엔진 알고리즘에서 검색 결과에 페이지를 나열할 때 순서를 결정하는 데 사용됩니다.
+
+<code><strong>&lt;title></strong></code> 요소 :
+
+* 브라우저 도구 모음에서 제목 정의
+* 즐겨찾기에 추가될 때 페이지의 제목 제공
+* 검색 엔진 결과에 페이지 제목 표시
+
+좋은 문서 제목을 만들기 위한 팁은 아래와 같습니다.
+
+* 제목을 가능한 한 정확하고 의미 있게 만드는 게 중요!
+* 더 길고 설명적인 제목을 사용 (한 단어 또는 두 단어로 된 제목은 되도록 피함)
+* 검색 엔진은 제목의 약 50-60자를 표시하므로 그보다 긴 제목을 사용하지 않도록 함
+* 단어 목록만 제목으로 사용하지 않도록 함 (검색 결과에서 페이지의 위치가 줄어들 수 있음)
+
+<br>
+
+#### HTML &lt;body> 본문
+
+<code><strong>&lt;body></strong></code> 태그는 문서의 **본문**을 정의하며, HTML 문서에 하나의 요소만 있을 수 있습니다.   
+<code><strong>&lt;body></strong></code> 요소에는 제목, 단락, 이미지, 하이퍼링크, 표, 목록, 입력 양식 등과 같은 HTML 문서의 모든 내용이 포함됩니다.   
+
+**예) &lt;html>, &lt;head>, &lt;title>, &lt;body>**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Title of the document</title>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+<br>
+
+#### HTML &lt;header> 소개
+
+<code><strong>&lt;header></strong></code> 요소는 **소개 콘텐츠 또는 네비게이션 링크 집합의 컨테이너**를 나타냅니다.   
+<code><strong>&lt;header></strong></code> 요소에 여러 요소가 있을 수 있지만, <code><strong>&lt;footer></strong></code>, <code><strong>&lt;address></strong></code> 또는 다른 요소 <code><strong>&lt;header></strong></code>는 <code><strong>&lt;header></strong></code>내에 배치할 수 없습니다.   
+<code><strong>&lt;header></strong></code> 요소 :   
+
+* 하나 이상의 제목 요소(<code><strong>&lt;h1></strong></code> - <code><strong>&lt;h6></strong></code>)
+* 로고 또는 아이콘
+* 저작권 정보
+* 웹 페이지 상단 영역
+  
+<br>
+
+#### HTML &lt;nav> 네비게이션
+
+<code><strong>&lt;nav></strong></code> 태그는 **네비게이션 링크 집합**을 정의합니다.   
+<code><strong>&lt;nav></strong></code> 태그는 메뉴, 목차 등 네비게이션 링크의 주요 블록에만 사용됩니다.
+장애(시각)가 있는 사용자를 위한 스크린 리더와 같은 브라우저는 이 요소를 사용하여 콘텐츠의 초기 렌더링을 생략할지 여부를 결정할 수 있습니다.
+
+<br>
+  
+#### HTML &lt;footer> 바닥글
+
+<code><strong>&lt;footer></strong></code> 태그는 문서 또는 섹션의 **바닥글**을 정의합니다.   
+<code><strong>&lt;footer></strong></code> 요소는 하나의 문서에 여러 개가 있을 수 있습니다.
+<code><strong>&lt;footer></strong></code> 요소 :
+
+* 저작권 정보
+* 연락처 및 주소 정보
+* 사이트맵
+* 맨 위로 링크로 돌아가기
+  
+<br>
+
+#### HTML &lt;main> 주요 내용
+
+<code><strong>&lt;main></strong></code> 태그는 문서의 **주요 내용**을 지정합니다.   
+<code><strong>&lt;main></strong></code> 요소의 내부 내용은 고유해야 하며, 문서에서 사이드바, 탐색 링크, 저작권 정보, 사이트 로고 및 검색 양식과 같은 반복되는 콘텐츠를 포함해서는 안 됩니다.   
+<code><strong>&lt;main></strong></code> 태그는 문서에서 2개 이상 있어서는 안 되며, <code><strong>&lt;article></strong></code>, <code><strong>&lt;aside></strong></code>, <code><strong>&lt;footer></strong></code>, <code><strong>&lt;header></strong></code> 또는 <code><strong>&lt;nav></strong></code> 요소의 자손이 아니어야 합니다.
+
+<br>
+
+#### HTML &lt;article> 독립적인 기사
+
+<code><strong>&lt;article></strong></code> 태그는 **자체적이고, 독립적인 콘텐츠**를 지정합니다.   
+<code><strong>&lt;article></strong></code> 요소 :
+
+* 포럼 게시물
+* 블로그 포스트
+* 뉴스 기사
+
+<br>
+
+#### HTML &lt;section> 섹션
+
+<code><strong>&lt;section></strong></code> 태그는 문서 내에 **주제와 관련된 섹션**을 정의합니다.   
+<code><strong>&lt;article></strong></code> 요소의 주로 자식 요소로 hn(h1~h6)태그 와 일반적인 콘텐츠가 포함됩니다.
+
+<br>
+
+#### HTML &lt;aside> 일부 콘텐츠
+
+<code><strong>&lt;aside></strong></code> 태그는 배치된 콘텐츠 외에 **일부 콘텐츠**를 정의하며, 주변 콘텐츠와 간접적으로 관련되어야 합니다.  
+<code><strong>&lt;aside></strong></code> 태그는 문서의 **사이드바**로 배치되는 경우가 많습니다.    
+
+**예) &lt;header>, &lt;nav>, &lt;footer>, &lt;main>, &lt;article>, &lt;section>, &lt;aside>**
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title of the document</title>
+  </head>
+  
+  <body>
+  
+    <header>
+      <h1>Browsers</h1>
+      <nav>
+          <a href="/Google Chrome/">Google Chrome</a> |
+          <a href="/Mozilla Firefox/">Mozilla Firefox</a> |
+          <a href="/Microsoft Edge/">Microsoft Edge</a> |
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+      </section>
+
+      <section>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+      </section>
+
+      <section>
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+      </section>
+
+      <aside>
+        <article>
+          <h2>Epcot Center</h2>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Author: Hege Refsnes</p>
+      <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+  </body>
+</html>
+```
+<p><a href="https://codesandbox.io/s/basic-html-layout-9n2g0" target="_blank" rel="noopener noreferrer"><img class="alignnone" src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit basic-html-layout. html" width="201" height="42" /></a></p>
+
+<br>
+
 ### - Contents
 
-#### HTML 제목
+#### HTML <code><strong>&lt;hn></strong></code> 제목
 
-HTML 제목은  <code><strong>&lt;h1></strong></code> ~ <code><strong>&lt;h6></strong></code> 태그 로 정의됩니다 .   
-<code><strong>&lt;h1></strong></code> 은 가장 중요한 제목을 정의할 때 쓰이며, 문서에 꼭 하나 이상은 있어야 합니다.   
+<code><strong>&lt;h1></strong></code> ~ <code><strong>&lt;h6></strong></code> 태그는 HTML 제목을 정의할 때 쓰입니다.   
+<code><strong>&lt;h1></strong></code> 은 가장 중요한 **제목**을 정의할 때 쓰이며, 문서에 **꼭 하나 이상**은 있어야 합니다.   
 <code><strong>&lt;h6></strong></code>은 가장 나중 제목을 정의할 때 쓰입니다.
 
 **예)**
@@ -119,9 +309,9 @@ HTML 제목은  <code><strong>&lt;h1></strong></code> ~ <code><strong>&lt;h6></s
 ```
 <br>
 
-#### HTML 단락
+#### HTML <code><strong>&lt;p></strong></code> 단락
 
-HTML 단락은 <code><strong>&lt;p></strong></code> 태그로 정의됩니다 .
+<code><strong>&lt;p></strong></code> 태그는 HTML 단락을 정의할 때 쓰입니다.
 
 **예)**
 ```html
@@ -129,6 +319,51 @@ HTML 단락은 <code><strong>&lt;p></strong></code> 태그로 정의됩니다 .
 <p>This is another paragraph.</p>
 ```
 
+<br>
+
+#### HTML <code><strong>&lt;div></strong></code> 구분
+
+<code><strong>&lt;div></strong></code> 태그는 HTML 문서에서 구분 또는 영역을 정의합니다.   
+<code><strong>&lt;div></strong></code> 태그는 HTML 요소의 컨테이너로 사용하고, 그런 다음 CSS로 스타일을 지정하거나 JavaScript로 조작합니다.   
+<code><strong>&lt;div></strong></code> 태그는 모든 종류의 콘텐츠를 내부에 포함 가능하며, id 또는 class 속성을 사용하여 쉽게 스타일을 지정할 수 있습니다.   
+
+**예)**
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title of the document</title>
+    <style>
+    .myDiv {
+      border: 5px outset red;
+      background-color: lightblue;
+      text-align: center;
+    }
+    </style>
+  </head>
+  
+  <body>
+    
+    <div class="myDiv">
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+
+  </body>
+</html>
+```
+<p><a href="https://codesandbox.io/s/basic-html-div-5pxlc" target="_blank" rel="noopener noreferrer"><img class="alignnone" src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit basic-html-div. html" width="201" height="42" /></a></p>
+
+<br>
+
+#### HTML <code><strong>&lt;span></strong></code> 단락
+
+<code><strong>&lt;span></strong></code> 태그는 문서의 일부를 마크업하는 데 사용되는 인라인 컨테이너입니다.
+
+**예)**
+```html
+<p>This is a <span style="color:blue">blue</span> paragraph.</p>
+```
 
 *****
 ### [목록으로 이동](README.md)
