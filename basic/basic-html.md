@@ -292,7 +292,7 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 
 ### - Contents
 
-#### HTML <code><strong>&lt;hn></strong></code> 제목
+#### HTML &lt;hn> 제목
 
 <code><strong>&lt;h1></strong></code> ~ <code><strong>&lt;h6></strong></code> 태그는 HTML 제목을 정의할 때 쓰입니다.   
 <code><strong>&lt;h1></strong></code> 은 가장 중요한 **제목**을 정의할 때 쓰이며, 문서에 **꼭 하나 이상**은 있어야 합니다.   
@@ -309,7 +309,7 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 ```
 <br>
 
-#### HTML <code><strong>&lt;p></strong></code> 단락
+#### HTML &lt;p> 단락
 
 <code><strong>&lt;p></strong></code> 태그는 HTML 단락을 정의할 때 쓰입니다.
 
@@ -321,7 +321,7 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 
 <br>
 
-#### HTML <code><strong>&lt;div></strong></code> 구분
+#### HTML &lt;div> 구분
 
 <code><strong>&lt;div></strong></code> 태그는 HTML 문서에서 구분 또는 영역을 정의합니다.   
 <code><strong>&lt;div></strong></code> 태그는 HTML 요소의 컨테이너로 사용하고, 그런 다음 CSS로 스타일을 지정하거나 JavaScript로 조작합니다.   
@@ -356,7 +356,7 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 
 <br>
 
-#### HTML <code><strong>&lt;span></strong></code> 단락
+#### HTML &lt;span> 일부 마크업
 
 <code><strong>&lt;span></strong></code> 태그는 문서의 일부를 마크업하는 데 사용되는 인라인 컨테이너입니다.
 
