@@ -88,7 +88,7 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 
 ### - Layout
 
-####  * HTML &lt;! DOCTYPE> 선언
+#### HTML &lt;! DOCTYPE> 선언
 
 <code><strong>&lt;!DOCTYPE></strong></code> 선언은 문서 유형을 나타내며 웹 페이지에 브라우저를 올바르게 표시 하는 데 도움이됩니다.   
 페이지 상단 (HTML 태그 이전)에 한 번만 나타내야 합니다.   
@@ -102,7 +102,7 @@ HTML 태그에는 **블록 레벨 요소** (Block-level Elements-사각형 덩�
 
 ### - Contents
 
-####  * HTML 제목
+#### HTML 제목
 
 HTML 제목은  <code><strong>&lt;h1></strong></code> ~ <code><strong>&lt;h6></strong></code> 태그 로 정의됩니다 .   
 <code><strong>&lt;h1></strong></code> 은 가장 중요한 제목을 정의할 때 쓰이며, 문서에 꼭 하나 이상은 있어야 합니다.   
@@ -119,7 +119,7 @@ HTML 제목은  <code><strong>&lt;h1></strong></code> ~ <code><strong>&lt;h6></s
 ```
 <br>
 
-####  * HTML 단락
+#### HTML 단락
 
 HTML 단락은 <code><strong>&lt;p></strong></code> 태그로 정의됩니다 .
 
