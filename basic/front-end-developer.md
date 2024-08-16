@@ -6,7 +6,7 @@
 
 <p align="right"><sub>내용 출처: <a rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank">https://en.wikipedia.org/wiki/Front-end_web_development</a></sub></p>
 
-<img src="https://frontendmasters.com/books/front-end-handbook/2019/assets/images/what-is-front-end-dev.png" alt="" width="840" height="306"/>
+<img src="https://frontendmasters.com/guides/front-end-handbook/2019/assets/images/what-is-front-end-dev.png?" alt="" width="840" height="306"/>
 <p align="center"><sub>이미지출처 : <a href="https://www.upwork.com/hiring/development/front-end-developer/" target="_blank" rel="noreferrer noopener">https://www.upwork.com/hiring/development/front-end-developer/</a></sub></p>
 <br >
 
